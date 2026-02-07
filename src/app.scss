@@ -1,24 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body, #root{
+html,
+body,
+#root {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
-body{
+body {
     background-color: #333;
 }
 
-main{
+main {
     height: 100%;
     width: 100%;
 
-    background-image: url('/wallpaper.jpg');
+    background-image: url('./wallpaper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }

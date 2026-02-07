@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "image": "https://github.com/AlokKumarYadav2410/portfolio/blob/main/assets/images/dominate-design.png?raw=true",
+    "title": "Dominate Design - Web-Based Design Tool",
+    "description": "A browser-based design application featuring a canvas editor, layers panel, and properties inspector. Built as a flagship project with a clean and modern UI.",
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Canvas",
+      "UI Tool"
+    ],
+    "repoLink": "https://github.com/AlokKumarYadav2410/dominate-design",
+    "demoLink": "https://dominate-design.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://github.com/AlokKumarYadav2410/drameeo-ott-platform/blob/main/src/assets/drameeo-preview.gif?raw=true",
+    "title": "Drameeo - OTT Platform UI",
+    "description": "A Netflix-inspired OTT platform UI with a dark theme and reusable components, focused on layout, responsiveness, and visual polish.",
+    "tags": [
+      "React",
+      "Tailwind CSS",
+      "UI Design"
+    ],
+    "repoLink": "https://github.com/AlokKumarYadav2410/drameeo-ott-platform",
+    "demoLink": "https://drameeo-ott-platform.vercel.app"
+  },
+  {
+    "id": 3,
+    "image": "https://github.com/AlokKumarYadav2410/image-editor-web/blob/main/assets/preview.gif?raw=true",
+    "title": "Image Editor Web App",
+    "description": "A lightweight image editor that allows users to apply filters, presets, and image adjustments directly in the browser.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Image Processing"
+    ],
+    "repoLink": "https://github.com/AlokKumarYadav2410/image-editor-web",
+    "demoLink": "https://image-editor-web-six.vercel.app"
+  },
+  {
+    "id": 4,
+    "image": "https://github.com/AlokKumarYadav2410/storeo/blob/main/src/assets/preview.png?raw=true",
+    "title": "Storeo - Modern E-Commerce Platform",
+    "description": "A modern e-commerce UI with smooth animations, fast performance, and a clean shopping experience.",
+    "tags": [
+      "React",
+      "Tailwind CSS",
+      "Vite",
+      "Axios"
+    ],
+    "repoLink": "https://github.com/AlokKumarYadav2410/storeo",
+    "demoLink": "https://storeo-ruby.vercel.app"
+  },
+  {
+    "id": 5,
+    "image": "https://github.com/AlokKumarYadav2410/notes-hub/blob/main/src/assets/home.png?raw=true",
+    "title": "NotesHub - Notes App",
+    "description": "A notes management application with clean UX, routing, toast notifications, and global state management.",
+    "tags": [
+      "React",
+      "Redux",
+      "Tailwind CSS"
+    ],
+    "repoLink": "https://github.com/AlokKumarYadav2410/notes-hub",
+    "demoLink": "https://notes-hub-six.vercel.app"
+  },
+  {
+    "id": 6,
+    "image": "https://github.com/AlokKumarYadav2410/dvsy-fashion-ui/blob/main/src/assets/preview-one.png?raw=true",
+    "title": "DVSY Fashion UI",
+    "description": "A minimal fashion website UI focused on modern layout, typography, and visual consistency.",
+    "tags": [
+      "React",
+      "Tailwind CSS",
+      "Vite"
+    ],
+    "repoLink": "https://github.com/AlokKumarYadav2410/dvsy-fashion-ui",
+    "demoLink": "https://dvsy-fashion-ui.vercel.app/"
+  },
+  {
+    "id": 7,
+    "image": "https://github.com/AlokKumarYadav2410/buddy-book/blob/main/src/assets/preview3.png?raw=true",
+    "title": "Buddy Book",
+    "description": "A contact management application designed for simplicity and ease of use.",
+    "tags": [
+      "React",
+      "Tailwind CSS"
+    ],
+    "repoLink": "https://github.com/AlokKumarYadav2410/buddy-book",
+    "demoLink": "https://buddy-book.vercel.app/"
+  },
+  {
+    "id": 8,
+    "image": "https://web-development-project-page.vercel.app/images/MainImages/JsProject/weather-app.png",
+    "title": "Weather App",
+    "description": "A weather forecasting application that fetches and displays real-time weather data with a simple UI.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API"
+    ],
+    "repoLink": "https://github.com/AlokKumarYadav2410/web-development-tasks/tree/main/Javascript/JsProjects/weather-app",
+    "demoLink": "https://web-development-project-page.vercel.app/Javascript/JsProjects/weather-app/index.html"
+  }
+]
