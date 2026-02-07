@@ -1,0 +1,137 @@
+/**
+ * @file: profile.config.ts
+ * @author: Alok Kumar Yadav
+ * @summary: Full-Stack Developer (MERN) with a strong focus on modern frontend and UI/UX.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "React.js",
+    "JavaScript (ES6+)",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Redux Toolkit",
+    "SCSS"
+  ],
+
+  backend: [
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "Authentication (JWT, OAuth)",
+  ],
+
+  database: [
+    "MongoDB",
+    "Mongoose"
+  ],
+
+  tools: [
+    "Git & GitHub",
+    "Vercel",
+    "Render",
+    "Postman",
+    "Figma",
+    "VS Code"
+  ]
+};
+
+// --------------------------------------------------
+// 2. EXPERIENCE
+// --------------------------------------------------
+
+const experience = [
+  {
+    role: "Frontend Developer Intern",
+    company: "Xipper",
+    type: "Internship",
+    period: "Jul 2025 – Oct 2025",
+    location: "Remote, India",
+    contributions: [
+      "Built responsive and reusable UI components using React.js and Tailwind CSS",
+      "Integrated REST APIs for dynamic data rendering",
+      "Improved state management and frontend performance",
+      "Collaborated with backend and design teams"
+    ],
+    tech: ["React.js", "Tailwind CSS", "REST APIs", "JSON", "Git"]
+  }
+];
+
+// --------------------------------------------------
+// 3. PROJECT EXPERIENCE
+// --------------------------------------------------
+
+class ProjectExperience {
+
+  public DominateDesign(): ProjectImpact {
+    return {
+      role: "Frontend Developer & UI Designer",
+      highlights: [
+        "Built a browser-based design tool with canvas editing",
+        "Implemented layers panel and properties inspector",
+        "Deployed live using Vercel"
+      ],
+      tech: ["JavaScript", "HTML", "CSS"]
+    };
+  }
+
+  public Drameeo(): ProjectImpact {
+    return {
+      focus: "Modern UI & Component Reusability",
+      achievements: [
+        "Netflix-inspired OTT UI",
+        "Reusable React components",
+        "Dark theme with Tailwind CSS"
+      ]
+    };
+  }
+
+  public NotesHub(): ProjectImpact {
+    return {
+      features: [
+        "React + Redux frontend",
+        "Learning Node.js & Express backend",
+        "MongoDB integration"
+      ],
+      tech: ["React", "Redux", "Node.js", "Express", "MongoDB"]
+    };
+  }
+}
+
+// --------------------------------------------------
+// 4. EDUCATION
+// --------------------------------------------------
+
+const education = {
+  degree: "Bachelor's in Computer Science / IT",
+  focus: "Web Development & Software Engineering"
+};
+
+// --------------------------------------------------
+// 5. AVAILABILITY
+// --------------------------------------------------
+
+const availability = {
+  status: "Open to Internships & Entry-Level Roles",
+  interests: ["Full-Stack (MERN)", "Frontend", "UI Engineering"]
+};
+
+export default new ProjectExperience();
+
+```bash
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ developer --status
+> Role: Full-Stack Developer (MERN)
+> Experience: Frontend Internship @ Xipper
+> Strength: UI / UX & React
+> Backend: Node.js • Express • MongoDB
+> Deployment: Vercel / Render
+> Availability: Open to Opportunities
+> Status: Ready to build 🚀
+```

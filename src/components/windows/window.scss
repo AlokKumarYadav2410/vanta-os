@@ -48,11 +48,16 @@
         padding-block: 0.2rem;
     }
 
-    .main-content::-webkit-scrollbar {
+    *::-webkit-scrollbar {
         width: 8px;
     }
 
-    .main-content::-webkit-scrollbar-track {
+    *::-webkit-scrollbar-track {
         background: transparent;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: #9e9e9e4e;
+        border-radius: 4px;
     }
 }
