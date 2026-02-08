@@ -1,10 +1,11 @@
 .dock {
     display: flex;
     gap: 0.75rem;
-    position: absolute;
+    position: fixed;
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 5;
 
     background-color: rgba(63, 63, 63, 0.292);
     padding-inline: 1rem;

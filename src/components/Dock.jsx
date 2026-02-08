@@ -4,49 +4,49 @@ const Dock = ({ windowState, setWindowState }) => {
   return (
     <footer className='dock'>
       <div
-        onClick={() => setWindowState(state => ({ ...state, github: true }))}
+        onClick={() => setWindowState(state => ({ ...state, github: windowState.github ? false : true }))}
         className="icon github">
         <img src="./doc-icons/github.svg" alt="github" />
       </div>
 
       <div
-        onClick={() => setWindowState(state => ({ ...state, note: true }))}
+        onClick={() => setWindowState(state => ({ ...state, note: windowState.note ? false : true }))}
         className="icon note">
         <img src="./doc-icons/note.svg" alt="note" />
       </div>
 
       <div
-        onClick={() => setWindowState(state => ({ ...state, resume: true }))}
+        onClick={() => setWindowState(state => ({ ...state, resume: windowState.resume ? false : true }))}
         className="icon pdf">
         <img src="./doc-icons/pdf.svg" alt="pdf" />
       </div>
 
-      <div 
-        onClick={() => {window.open("https://calendar.google.com", "_blank")}}
+      <div
+        onClick={() => { window.open("https://calendar.google.com", "_blank") }}
         className="icon calender">
         <img src="./doc-icons/calender.svg" alt="calender" />
       </div>
 
       <div
-        onClick={() => setWindowState(state => ({ ...state, spotify: true }))}
+        onClick={() => setWindowState(state => ({ ...state, spotify: windowState.spotify ? false : true }))}
         className="icon spotify">
         <img src="./doc-icons/spotify.svg" alt="spotify" />
       </div>
 
-      <div 
-        onClick={() => {window.open("mailto:alokkumaryadav241004@gmail.com", "_blank")}}
+      <div
+        onClick={() => { window.open("mailto:alokkumaryadav241004@gmail.com", "_blank") }}
         className="icon mail">
         <img src="./doc-icons/mail.svg" alt="mail" />
       </div>
 
-      <div 
-        onClick={() => {window.open("https://www.linkedin.com/in/alokkumaryadav2410", "_blank")}}
+      <div
+        onClick={() => { window.open("https://www.linkedin.com/in/alokkumaryadav2410", "_blank") }}
         className="icon link">
         <img src="./doc-icons/link.svg" alt="link" />
       </div>
 
       <div
-        onClick={() => setWindowState(state => ({ ...state, cli: true }))}
+        onClick={() => setWindowState(state => ({ ...state, cli: windowState.cli ? false : true }))}
         className="icon cli">
         <img src="./doc-icons/cli.svg" alt="cli" />
       </div>

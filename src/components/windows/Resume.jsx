@@ -2,13 +2,15 @@ import React from 'react'
 import MacWindow from './MacWindow'
 import './resume.scss'
 
-const Resume = ({windowName, setWindowState}) => {
+const Resume = ({ windowName, setWindowState, zIndex, onFocus }) => {
   return (
-    <MacWindow windowName={windowName} setWindowState={setWindowState}>
+    <div>
+      <MacWindow windowName={windowName} setWindowState={setWindowState} zIndex={zIndex} onFocus={onFocus}>
         <div className="resume-window">
-            <embed src="./resume.pdf" frameborder="0"></embed>
+          <embed src="./resume.pdf" frameborder="0"></embed>
         </div>
-    </MacWindow>
+      </MacWindow>
+    </div>
   )
 }
 

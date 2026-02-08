@@ -3,7 +3,7 @@ import MacWindow from './MacWindow'
 import Terminal from 'react-console-emulator'
 import './cli.scss'
 
-const Cli = ({windowName, setWindowState}) => {
+const Cli = ({ windowName, setWindowState, zIndex, onFocus }) => {
     const commands = {
         about: {
             description: 'About me',
@@ -63,11 +63,12 @@ const Cli = ({windowName, setWindowState}) => {
     }
 
     return (
-        <MacWindow height='60vh' windowName={windowName} setWindowState={setWindowState}>
-            <div className="cli-window">
-                <Terminal
-                    commands={commands}
-                    welcomeMessage={`
+        <div>
+            <MacWindow height='60vh' windowName={windowName} setWindowState={setWindowState} zIndex={zIndex} onFocus={onFocus}>
+                <div className="cli-window">
+                    <Terminal
+                        commands={commands}
+                        welcomeMessage={`
                     ┌───────────────────────────────────────────────┐
                     │  👋 Welcome to my interactive portfolio!
                     └───────────────────────────────────────────────┘
@@ -88,11 +89,12 @@ const Cli = ({windowName, setWindowState}) => {
                     `}
 
 
-                    promptLabel="alokkumaryadav:~$"
-                    promptLabelStyle={{ color: '#00ff00' }}
-                />
-            </div>
-        </MacWindow>
+                        promptLabel="alokkumaryadav:~$"
+                        promptLabelStyle={{ color: '#00ff00' }}
+                    />
+                </div>
+            </MacWindow>
+        </div>
     )
 }
 
