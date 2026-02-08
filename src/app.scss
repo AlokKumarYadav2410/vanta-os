@@ -9,7 +9,6 @@ body,
 #root {
     height: 100%;
     width: 100%;
-    overflow: hidden;
 }
 
 body {
@@ -24,4 +23,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    position: relative;
+    overflow: hidden;
 }
