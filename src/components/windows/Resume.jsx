@@ -7,7 +7,7 @@ const Resume = ({ windowName, setWindowState, zIndex, onFocus }) => {
     <div>
       <MacWindow windowName={windowName} setWindowState={setWindowState} zIndex={zIndex} onFocus={onFocus}>
         <div className="resume-window">
-          <embed src="./resume.pdf" frameborder="0"></embed>
+          <embed src="./resume.pdf" frameBorder="0"></embed>
         </div>
       </MacWindow>
     </div>

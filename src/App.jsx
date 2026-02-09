@@ -40,15 +40,28 @@ const App = () => {
   }, [windowState])
 
   return (
-    <main>
-      <Nav />
-      {windowState.github && <Github windowName="github" setWindowState={setWindowState} zIndex={zIndexMap.github} onFocus={focusWindow} />}
-      {windowState.note && <Note windowName="note" setWindowState={setWindowState} zIndex={zIndexMap.note} onFocus={focusWindow} />}
-      {windowState.resume && <Resume windowName="resume" setWindowState={setWindowState} zIndex={zIndexMap.resume} onFocus={focusWindow} />}
-      {windowState.spotify && <Spotify windowName="spotify" setWindowState={setWindowState} zIndex={zIndexMap.spotify} onFocus={focusWindow} />}
-      {windowState.cli && <Cli windowName="cli" setWindowState={setWindowState} zIndex={zIndexMap.cli} onFocus={focusWindow} />}
-      <Dock windowState={windowState} setWindowState={setWindowState} />
-    </main>
+    <>
+      <main>
+        <div className="landscape-warning">
+          <div className="warning-text">
+            <h1>Vanta OS</h1>
+            <p>This experience is designed for larger screens.</p>
+            <p>Please switch to a desktop or a tablet</p>
+            <span>Minimum screen width required: 1024px</span>
+          </div>
+        </div>
+        <Nav windowState={windowState} setWindowState={setWindowState} />
+        {windowState.github && <Github windowName="github" setWindowState={setWindowState} zIndex={zIndexMap.github} onFocus={focusWindow} />}
+        {windowState.note && <Note windowName="note" setWindowState={setWindowState} zIndex={zIndexMap.note} onFocus={focusWindow} />}
+        {windowState.resume && <Resume windowName="resume" setWindowState={setWindowState} zIndex={zIndexMap.resume} onFocus={focusWindow} />}
+        {windowState.spotify && <Spotify windowName="spotify" setWindowState={setWindowState} zIndex={zIndexMap.spotify} onFocus={focusWindow} />}
+        {windowState.cli && <Cli windowName="cli" setWindowState={setWindowState} zIndex={zIndexMap.cli} onFocus={focusWindow} />}
+        <Dock windowState={windowState} setWindowState={setWindowState} />
+        <div className='logo'>
+          <img src="./main-logo.png" alt="" />
+        </div>
+      </main>
+    </>
   )
 }
 

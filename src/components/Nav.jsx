@@ -1,7 +1,7 @@
 import React from 'react'
 import './nav.scss'
 import DateTime from './DateTime'
-const Nav = () => {
+const Nav = ({ windowState, setWindowState }) => {
     return (
         <nav>
             <div className="left">
@@ -9,19 +9,27 @@ const Nav = () => {
                     <img src="./navbar-icons/vanta-icon.png" alt="" />
                 </div>
 
-                <div className="nav-item">
+                <div
+                    onClick={() => window.open("https://portfolio-alok-live.vercel.app/", "_blank")}
+                    className="nav-item">
                     <p>Alok Kumar Yadav</p>
                 </div>
 
-                <div className="nav-item">
+                <div
+                    onClick={() => setWindowState(state => ({ ...state, resume: windowState.resume ? false : true }))}
+                    className="nav-item">
                     <p>File</p>
                 </div>
 
-                <div className="nav-item">
+                <div
+                    onClick={() => setWindowState(state => ({ ...state, note: windowState.note ? false : true }))}
+                    className="nav-item">
                     <p>Window</p>
                 </div>
 
-                <div className="nav-item">
+                <div
+                    onClick={() => setWindowState(state => ({ ...state, cli: windowState.cli ? false : true }))}
+                    className="nav-item">
                     <p>Terminal</p>
                 </div>
 
@@ -31,7 +39,7 @@ const Nav = () => {
                     <img src="./navbar-icons/wifi.svg" alt="" />
                 </div>
 
-                 <div className="nav-item">
+                <div className="nav-item">
                     <DateTime />
                 </div>
             </div>
